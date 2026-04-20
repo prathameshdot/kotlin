@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python build_website.py)",
+      "Bash(python -W ignore build_website.py)",
+      "PowerShell(cd \"E:\\\\kotlin\"; python -W ignore build_website.py; echo \"EXIT: $LASTEXITCODE\")",
+      "PowerShell(Set-Location \"E:\\\\kotlin\"; $env:PYTHONIOENCODING=\"utf-8\"; python -W ignore build_website.py 2>&1)"
+    ]
+  }
+}
